@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bytqekdwnabea"
-path="res://.godot/imported/starsLayer2.png-9deafdbdfa7fc8c5e5ab36c1911a31e0.ctex"
+uid="uid://crb3vqd07rbop"
+path="res://.godot/imported/uzay1verlayer3.png-e7ddff488257aa20bc014fd97f0b1030.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/background/starsLayer2.png"
-dest_files=["res://.godot/imported/starsLayer2.png-9deafdbdfa7fc8c5e5ab36c1911a31e0.ctex"]
+source_file="res://Sprites/background/uzay1verlayer3.png"
+dest_files=["res://.godot/imported/uzay1verlayer3.png-e7ddff488257aa20bc014fd97f0b1030.ctex"]
 
 [params]
 

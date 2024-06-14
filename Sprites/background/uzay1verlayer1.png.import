@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2qdnxyb47agw"
-path="res://.godot/imported/nebula max znr.png-a0203be8b659021cbd9ea69da58182d4.ctex"
+uid="uid://pp53yrc7huml"
+path="res://.godot/imported/uzay1verlayer1.png-48c01d10bc68cbb90eaa656f49b495c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/background/nebula max znr.png"
-dest_files=["res://.godot/imported/nebula max znr.png-a0203be8b659021cbd9ea69da58182d4.ctex"]
+source_file="res://Sprites/background/uzay1verlayer1.png"
+dest_files=["res://.godot/imported/uzay1verlayer1.png-48c01d10bc68cbb90eaa656f49b495c8.ctex"]
 
 [params]
 

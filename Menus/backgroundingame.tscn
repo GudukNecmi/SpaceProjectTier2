@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://cep87dbpwhpf6"]
+[gd_scene load_steps=5 format=3 uid="uid://dp6y8t5xeng0t"]
 
-[ext_resource type="Texture2D" uid="uid://cpy68hg2deo24" path="res://Sprites/BGStatic.png" id="1_i8nry"]
-[ext_resource type="Texture2D" uid="uid://pp53yrc7huml" path="res://Sprites/background/uzay1verlayer1.png" id="2_eb3f6"]
-[ext_resource type="Texture2D" uid="uid://crb3vqd07rbop" path="res://Sprites/background/uzay1verlayer3.png" id="3_br3tv"]
-[ext_resource type="Texture2D" uid="uid://bsdj14k0rsulp" path="res://Sprites/background/uzay1verlayer2.png" id="4_8f78f"]
+[ext_resource type="Texture2D" uid="uid://pp53yrc7huml" path="res://Sprites/background/uzay1verlayer1.png" id="2_kakne"]
+[ext_resource type="Texture2D" uid="uid://crb3vqd07rbop" path="res://Sprites/background/uzay1verlayer3.png" id="3_q1ov1"]
+[ext_resource type="Texture2D" uid="uid://bsdj14k0rsulp" path="res://Sprites/background/uzay1verlayer2.png" id="4_1uqjm"]
 
 [sub_resource type="GDScript" id="GDScript_nwfkd"]
 script/source = "extends ParallaxBackground
@@ -21,41 +20,39 @@ func _process(delta):
 		$ParallaxLayer2.hide()
 "
 
-[node name="Background" type="ParallaxBackground"]
-follow_viewport_enabled = true
+[node name="Backgroundingame" type="ParallaxBackground"]
+scale = Vector2(4, 4)
+transform = Transform2D(4, 0, 0, 4, 0, 0)
 follow_viewport_scale = 1.04
 script = SubResource("GDScript_nwfkd")
 isScrolling = true
 scrollX = 50.0
 scrollY = 24.0
 
-[node name="BgStatic" type="Sprite2D" parent="."]
-z_index = -20
-texture = ExtResource("1_i8nry")
-centered = false
-
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.1, 0.1)
-motion_offset = Vector2(50, 50)
+motion_offset = Vector2(5, 5)
 motion_mirroring = Vector2(960, 540)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
 position = Vector2(480, 270)
-texture = ExtResource("2_eb3f6")
+texture = ExtResource("2_kakne")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(-0.3, -0.3)
+motion_scale = Vector2(0.3, 0.3)
+motion_offset = Vector2(5, 5)
 motion_mirroring = Vector2(960, 540)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
 position = Vector2(480, 270)
-texture = ExtResource("3_br3tv")
+texture = ExtResource("3_q1ov1")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.5, 0.5)
-motion_offset = Vector2(50, 50)
+motion_offset = Vector2(5, 5)
 motion_mirroring = Vector2(960, 540)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
+z_index = 5
 position = Vector2(480, 270)
-texture = ExtResource("4_8f78f")
+texture = ExtResource("4_1uqjm")
