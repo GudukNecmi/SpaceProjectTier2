@@ -1,9 +1,8 @@
-res://Menus/background.tscn
+res://Menus/main_menu.tscn
 res://Game/Player/TrailEffect.gd
 res://Game/Enemy/hitFlash.tres
 res://Game/PlayerVignette.gdshader
 res://Game/game.gdshader
-res://Menus/main_menu.tscn
 res://Game/game.tscn
 res://Game/Player/Character.tscn
 res://Game/Stations/station_3.tscn
